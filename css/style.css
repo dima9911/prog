@@ -13,24 +13,43 @@
 	color: white !important;
 }
 
-#nav div {
 
-	background: transparent;
-}
-
-#header dl dd {
-
+#header .top-bar {
+background: transparent;
 	 text-transform: uppercase;
-	 color: white !important;
-	 border: 1px solid white;
-	 border-radius: 5px;
 
 }
 
-#header dl dd a {
+.top-bar-section ul li > a { 
 
-	
-	
+  font-family: 'Raleway', sans-serif !important;
+
+}
+
+#header .title-area {
+background: transparent;
+   text-transform: uppercase;
+
+}
+
+#header ul li {
+background: transparent;
+   text-transform: uppercase;
+
+}
+
+#header ul li:hover {
+background: transparent !important;
+   text-transform: uppercase;
+
+}
+
+
+#header a {
+  background: transparent !important;
+   text-transform: uppercase;
+   color: white;
+
 }
 
 .row {
@@ -43,19 +62,81 @@
 font-family: 'Oxygen', sans-serif;
 }
 
-@media only screen and (min-width: 40.063em) { 
+@media only screen and (max-width: 40em) { 
 
-  #logo {
-    padding-top: 200px;
+  .right li {
+
+    margin-bottom: 10px;
+  }
+
+   #logo {
+    padding-top: 100px;
     padding-bottom: 150px; 
 
   }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #333333;
+     line-height: 1.5em; 
+    padding: 0 0.9375rem;
 }
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+
+   #logo {
+    padding-top: 100px;    
+
+  }
+
+  #header li {
+
+    margin-top: 10px;
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #333333;
+    padding-top: 10px; 
+     line-height: 1.5em; 
+    padding: 0 0.9375rem;
+}
+
+}
+
+@media only screen and (min-width: 64.063em) { 
+
+  #logo {
+    padding-top: 200px;
+    padding-bottom: 80px; 
+
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #333333;
+     line-height: 1.5em; 
+    padding: 0 0.9375rem;
+}
+}
+
+#header ul {
+  padding-top: 10px;
+}
+
+#header li {
+
+  margin-right: 20px; 
+  padding: 10px
+
+}
+
+
 
 
 /* Bounce To Right */
 .hvr-bounce-to-right {
-  display: inline-block;
+ 
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -68,7 +149,12 @@ font-family: 'Oxygen', sans-serif;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  color: white !important;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0px;
+
+
 }
 .hvr-bounce-to-right:before {
   content: "";
@@ -90,9 +176,13 @@ font-family: 'Oxygen', sans-serif;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-  color: #f28d93 !important;
+
+
+
+.hvr-bounce-to-right:hover a {
+  color: #f28d93 !important; 
 }
+
 .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -153,4 +243,33 @@ font-family: 'Oxygen', sans-serif;
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+#content-one {
+  background-color: #5db5a4;
+}
+
+#content-one h4 {
+
+  font-family: 'Raleway', sans-serif !important;
+  color: white !important;
+}
+
+.ral {
+
+  font-family: 'Raleway', sans-serif !important;
+  color: white !important;
+}
+
+.up {
+  font-family: 'Oxygen', sans-serif;
+     text-transform: uppercase;
+     color: white !important;
+}
+
+#content-one h2 {
+
+    padding-top: 40px;
+
 }

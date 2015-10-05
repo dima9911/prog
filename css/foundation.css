@@ -1842,7 +1842,7 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li {
     background: #333333; }
     .top-bar-section ul li > a {
-      color: #FFFFFF;
+     
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
@@ -1955,7 +1955,7 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
       background-color: #555555;
-      color: #FFFFFF;
+      
       background: #222222; }
     .top-bar-section ul li.active > a {
       background: #008CBA;
